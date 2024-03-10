@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Freelance Web Developer</h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Add portfolio items with details -->
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <!-- Add scheduling features and form for customers -->
+            <form id="scheduleForm">
+                <label for="customerName">Your Name:</label>
+                <input type="text" id="customerName" required>
+                
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" required>
+                
+                <button type="submit">Schedule</button>
+            </form>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <!-- Add blog posts with details -->
+            <article class="blog-post">
+                <h3>Understanding JavaScript Promises</h3>
+                <p>Content of the blog post.</p>
+            </article>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- Add a contact form -->
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <p>&copy; 2024 Freelance Web Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
